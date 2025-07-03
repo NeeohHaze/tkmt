@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "tkmt",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://username.github.io/tkmt",
+  "homepage": "https://neeohhaze.github.io/tkmt",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
