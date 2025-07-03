@@ -1,0 +1,83 @@
+.home {
+  padding: 50px 20px;
+  position: relative;
+  background: #1a1a2e; /* Fallback background */
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-placeholder {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #2a2a4e 0%, #1a1a2e 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  background-image: url(../images/cat.png);
+}
+
+.intro-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.header-text {
+  font-size: 2.8rem;
+  color: #00d4ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+  display: inline-block;
+}
+
+.typing-text {
+  display: inline-block;
+}
+
+.letter {
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  font-weight: 400;
+  color: #00d4ff;
+}
+
+.intro-text p {
+  font-size: 1.3rem;
+  color: #b0b0cc;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.fun-button {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #ff6b6b 0%, #00d4ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.fun-button:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+}
+
+.extra{
+  text-decoration: none;
+}
