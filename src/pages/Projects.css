@@ -18,7 +18,7 @@
 }
 
 .project-content {
-  max-width: 600px;
+  max-width: 800px; /* Increased for image space */
   margin: 0 auto;
   text-align: left;
   position: relative;
@@ -32,9 +32,16 @@
   margin-bottom: 20px;
 }
 
+.project-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .project-content ul {
   list-style: none;
   padding: 0;
+  flex: 1;
 }
 
 .project-content ul li {
@@ -50,6 +57,31 @@
   background: rgba(0, 212, 255, 0.1);
   transform: translateX(5px);
 }
-.ricgaming{
+
+.ricgaming {
   text-decoration: none;
+  color: #e0e0e0;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.image-placeholder {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(135deg, #2a2a4e 0%, #1a1a2e 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+  opacity: 0;
+  transform: translateX(50px);
+  position: relative;
+  background-image: url(../images/faqpage.png);
+  
+}
+.image-placeholder::after {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #b0b0cc;
+  font-size: 1.2rem;
 }

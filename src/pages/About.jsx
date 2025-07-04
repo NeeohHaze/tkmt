@@ -18,7 +18,7 @@ function About() {
           x: 0,
           opacity: 1,
           clipPath: 'inset(0 0% 0 0)',
-          duration: 1,
+          duration: 3,
           ease: 'power2.out',
           scrollTrigger: {
             trigger: '.header-text',
@@ -35,7 +35,7 @@ function About() {
       {
         opacity: 1,
         x: 0,
-        duration: 0.8,
+        duration: 3,
         ease: 'power2.out',
         scrollTrigger: {
           trigger: '.bio-card',
@@ -51,7 +51,7 @@ function About() {
       {
         opacity: 1,
         y: 0,
-        duration: 0.8,
+        duration: 3,
         stagger: 0.2,
         ease: 'power2.out',
         scrollTrigger: {
