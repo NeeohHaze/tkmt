@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://neeohhaze.github.io/tkmt/",
+  "homepage": "https://neeohhaze.github.io/tkmt",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
